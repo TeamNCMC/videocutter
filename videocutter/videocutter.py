@@ -1,8 +1,6 @@
 """
 videocutter command line interface (CLI).
 
-author : Guillaume Le Goc (g.legoc@posteo.org), Edwin Gatier
-
 """
 
 import os

@@ -1,6 +1,6 @@
 # videocutter
 
-This script (`/scripts/video_cutter.py`) is used to cut long recordings containing multiple stimulations into single-stimulation clips.
+This script is used to cut long recordings containing multiple stimulations into single-stimulation clips.
 
 It uses the video file and a corresponding stimulation trace stored as a text (Labscribe) or binary file (Bonsai)
 
