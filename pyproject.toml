@@ -1,6 +1,6 @@
 [project]
 name = "videocutter"
-version = "2024.12.17"
+version = "2024.12.17.1"
 authors = [{ name = "Guillaume Le Goc", email = "g.legoc@posteo.org" }]
 description = "Split videos around time points."
 readme = "README.md"
