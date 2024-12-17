@@ -18,9 +18,11 @@ from typing_extensions import Annotated
 
 __version__ = "2024.12.17"
 
+
 # --- Typer functions
 def app():
     typer.run(process_directory)
+
 
 def laser_color_callback(value: str):
     if value not in ("blue", "orange", None):
@@ -557,4 +559,3 @@ def process_directory(
             )
             if returncode != 0:
                 raise SystemError(f"ffmpeg failed for {file}-{idx}.mp4")
-
