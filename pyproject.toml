@@ -1,6 +1,6 @@
 [project]
 name = "videocutter"
-version = "2024.08.30"
+version = "2024.12.17"
 authors = [{ name = "Guillaume Le Goc", email = "g.legoc@posteo.org" }]
 description = "Split videos around time points."
 readme = "README.md"
@@ -26,8 +26,8 @@ dependencies = [
 videocutter = "videocutter.videocutter:app"
 
 [build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [tool.ruff]
 line-length = 88

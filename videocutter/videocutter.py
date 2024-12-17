@@ -16,7 +16,7 @@ import typer
 from tqdm import tqdm
 from typing_extensions import Annotated
 
-__version__ = "2024.08.30"
+__version__ = "2024.12.17"
 
 # --- Typer functions
 def app():
@@ -34,7 +34,7 @@ def laser_ext_callback(value: str):
 
 def version_callback(value: bool):
     if value:
-        print(f"video-cutter CLI version : {__version__}")
+        print(f"videocutter CLI version : {__version__}")
         raise typer.Exit()
 
 
