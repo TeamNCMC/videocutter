@@ -41,7 +41,7 @@ videocutter /path/to/your/videos orange --video-ext avi
 ```
 
 ### From a Python script
-Copy the example from examples/cut_videos.py, fill in the parameters and run the script.
+Copy the example from `examples/cut_videos.py`, fill in the parameters and run the script.
 
 ## Notes
 - The format of txt files exported from Labscribe depends on its version... Sometimes the values are separated by commas (`,`), sometimes tabulations. To be sure, open the file with a text editor and see if there are "," or big spaces between values on a row. Edit the `SEP` parameter accordingly in the example script or with the `--sep` argument in the CLI.
