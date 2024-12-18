@@ -1,5 +1,8 @@
 # videocutter
 
+[![Python Version](https://img.shields.io/pypi/pyversions/videocutter.svg)](https://pypi.org/project/videocutter)
+[![PyPI](https://img.shields.io/pypi/v/videocutter.svg)](https://pypi.org/project/videocutter/)
+
 This script is used to cut long recordings containing multiple stimulations into single-stimulation clips.
 
 It uses the video file and a corresponding stimulation trace stored as a text (Labscribe) or binary file (Bonsai)
