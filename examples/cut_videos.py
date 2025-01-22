@@ -17,7 +17,7 @@ TIME_AFTER_ONSET = 2  # time after onset (seconds)
 LASER_MIN_VOLTAGE = 1.5  # min. voltage for the laser to be "on" (volt)
 CAMERA_MIN_VOLTAGE = 1.5  # min. voltage for the camera to be "on" (for bin files, volt)
 SAMPLE_RATE = 10000  # sampling rate (for bin files)
-ADJUST_FACTOR = -0.000035  # fix delay between camera and laser
+ADJUST_FACTOR = -0.000035  # fix delay between camera and laser (for bin files)
 
 # path to the bin directory of ffmpeg, or empty string if in PATH
 FFMPEG_BIN_DIR = ""
