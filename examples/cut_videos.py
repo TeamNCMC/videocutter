@@ -11,7 +11,7 @@ videos_directory = "/path/to/videos"
 laser_color = "blue"  # "blue" or "orange"
 
 # --- Parameters
-TIME_BEFORE_ONSET = 1  # time before onset (seconds)
+TIME_BEFORE_ONSET = 1  # time before onset (seconds, >0)
 TIME_AFTER_ONSET = 2  # time after onset (seconds)
 
 LASER_MIN_VOLTAGE = 1.5  # min. voltage for the laser to be "on" (volt)
